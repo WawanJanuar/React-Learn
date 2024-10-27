@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Latihan from "./Latihan";
+import Lat from "./Lat";
 
 function AppState () {
     const [like, setLike] = useState(0);
@@ -12,7 +12,7 @@ function AppState () {
         <>
         <button onClick={Handleclikc}>like {like}</button>
         <br />
-        <Latihan />
+        <Lat />
         </>
     )
 }
