@@ -1,9 +1,9 @@
 import React from 'react';
 
 function AppProps() {
-    function Header(props){
+    function Header({author}){
         return (
-            <h1>Welcom, {props.author}</h1>
+            <h1>Welcom, {author}</h1>
         )
     }
     function Tes({penulis}) {
